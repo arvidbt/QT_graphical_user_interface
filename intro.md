@@ -5,6 +5,8 @@
 
 ## Grunduppgift 1 [ ]
 
+- Skapat en **helloworld.qml**.
+
 ## Grunduppgift 2 [ ]
 
 ## Grunduppgift 3 [ ]
