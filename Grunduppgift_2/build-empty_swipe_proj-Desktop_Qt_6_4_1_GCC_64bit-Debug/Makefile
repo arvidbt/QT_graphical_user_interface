@@ -57,6 +57,7 @@ OBJECTS       = main.o \
 		qrc_qml.o
 DIST          = ../empty_swipe_proj/Page1Form.ui.qml \
 		../empty_swipe_proj/Page2Form.ui.qml \
+		../empty_swipe_proj/Calculator.qml \
 		../empty_swipe_proj/main.qml \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/spec_pre.prf \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/common/unix.conf \
@@ -181,6 +182,7 @@ DIST          = ../empty_swipe_proj/Page1Form.ui.qml \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/qt_config.prf \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/spec_post.prf \
+		../empty_swipe_proj/.qmake.stash \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/toolchain.prf \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/default_pre.prf \
@@ -335,6 +337,7 @@ Makefile: ../empty_swipe_proj/empty_swipe_proj.pro /home/arvid/Qt/6.4.1/gcc_64/m
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/qt_config.prf \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/toolchain.prf \
 		/home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/default_pre.prf \
@@ -487,6 +490,7 @@ Makefile: ../empty_swipe_proj/empty_swipe_proj.pro /home/arvid/Qt/6.4.1/gcc_64/m
 /home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/qt_config.prf:
 /home/arvid/Qt/6.4.1/gcc_64/mkspecs/linux-g++/qmake.conf:
 /home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/exclusive_builds.prf:
 /home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/toolchain.prf:
 /home/arvid/Qt/6.4.1/gcc_64/mkspecs/features/default_pre.prf:
@@ -563,6 +567,7 @@ qrc_qml.cpp: ../empty_swipe_proj/qml.qrc \
 		../empty_swipe_proj/qtquickcontrols2.conf \
 		../empty_swipe_proj/Page2Form.ui.qml \
 		../empty_swipe_proj/Page1Form.ui.qml \
+		../empty_swipe_proj/Calculator.qml \
 		../empty_swipe_proj/main.qml
 	/home/arvid/Qt/6.4.1/gcc_64/libexec/rcc -name qml --no-zstd ../empty_swipe_proj/qml.qrc -o qrc_qml.cpp
 

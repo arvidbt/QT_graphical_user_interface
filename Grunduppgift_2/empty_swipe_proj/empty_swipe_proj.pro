@@ -25,4 +25,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 DISTFILES += \
     Page1Form.ui.qml \
     Page2Form.ui.qml \
+    Calculator.qml \
     main.qml
