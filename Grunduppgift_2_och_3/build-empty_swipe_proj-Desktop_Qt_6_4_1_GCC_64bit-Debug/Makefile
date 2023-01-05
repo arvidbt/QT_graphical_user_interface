@@ -565,9 +565,9 @@ compiler_rcc_clean:
 qrc_qml.cpp: ../empty_swipe_proj/qml.qrc \
 		/home/arvid/Qt/6.4.1/gcc_64/libexec/rcc \
 		../empty_swipe_proj/qtquickcontrols2.conf \
+		../empty_swipe_proj/Cell.qml \
 		../empty_swipe_proj/Page2Form.ui.qml \
 		../empty_swipe_proj/Page1Form.ui.qml \
-		../empty_swipe_proj/Calculator.qml \
 		../empty_swipe_proj/main.qml
 	/home/arvid/Qt/6.4.1/gcc_64/libexec/rcc -name qml --no-zstd ../empty_swipe_proj/qml.qrc -o qrc_qml.cpp
 
